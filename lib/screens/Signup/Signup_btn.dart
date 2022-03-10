@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-//import 'package:loginapp/navigation/routes.dart';
+import 'package:loginapp/navigation/routes.dart';
 
 class SignupButton extends StatefulWidget {
   const SignupButton({ Key? key }) : super(key: key);
@@ -24,7 +24,7 @@ class _SignupButtonState extends State<SignupButton> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     MaterialButton(onPressed: (){
-                     // Navigator.pushNamed(context, Routes.loginRoute);
+                      Navigator.pushNamed(context, Routes.loginRoute);
                     },
                     color: Color(0xff01ADC0),
                     
@@ -68,7 +68,7 @@ class _SignupButtonState extends State<SignupButton> {
 
                                                   InkWell(
                                                     onTap: (){
-                                                    //  Navigator.pushNamed(context, Routes.loginRoute);
+                                                      Navigator.pushNamed(context, Routes.loginRoute);
                                                     },
                                                     child: Text("LOGIN",
                                                  style:TextStyle(color: Color(0xff01ADC0),

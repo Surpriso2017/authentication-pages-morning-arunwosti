@@ -1,7 +1,7 @@
 
 
 import 'package:flutter/material.dart';
-//import 'package:loginapp/navigation/routes.dart';
+import 'package:loginapp/navigation/routes.dart';
 import 'package:loginapp/screens/instagram/insta_home/insta_body.dart';
 
 
@@ -53,7 +53,7 @@ class InstaHome extends StatelessWidget {
                  ),
                   IconButton(
                 onPressed: (){
-                  //Navigator.pushNamed(context, Routes.instaProfileRoute);
+                  Navigator.pushNamed(context, Routes.instaProfileRoute);
                 },
                  icon: Icon(Icons.settings )
                  )
